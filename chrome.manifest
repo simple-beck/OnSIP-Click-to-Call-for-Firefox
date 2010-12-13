@@ -1,4 +1,6 @@
-content    onsip                jar:chrome/onsip.jar!/content/
-locale     onsip en-US          jar:chrome/onsip.jar!/locale/en-US/
-skin       onsip classic/1.0    jar:chrome/onsip.jar!/skin/classic/
+content    onsip                chrome/content/
+content    onsip                chrome/content/contentaccessible=yes
+locale     onsip en-US          chrome/locale/en-US/
+locale     onsip ru-RU          chrome/locale/ru-RU/
+skin       onsip classic/1.0    chrome/skin/classic/
 overlay    chrome://browser/content/browser.xul chrome://onsip/content/onsip.xul
